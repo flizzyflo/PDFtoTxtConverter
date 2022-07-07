@@ -1,5 +1,5 @@
 
-from tkinter import Tk
+from tkinter import Tk, Label
 from Buttons.Button import OwnButton
 from Settings.Settings import *
 from Conversion.convert_pdf_to_word import convert_pdf_to_word

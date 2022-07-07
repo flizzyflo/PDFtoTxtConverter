@@ -1,6 +1,6 @@
 
 from Settings.Settings import filepath
-import PyPDF2
+# import PyPDF2
 
 
 def convert_pdf_to_word(labelItem: object) -> None:

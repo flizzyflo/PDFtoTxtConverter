@@ -1,11 +1,6 @@
 
-from Conversion.convert_pdf_to_word import convert_pdf_to_word
-from PathSelection.PathSelection import select_file_path
-from Buttons.Button import OwnButton
 from UserInterface.UserInterface import PDF_UserIterface
 from Settings.Settings import *
-from tkinter import *
-
 
 def start_application():
 

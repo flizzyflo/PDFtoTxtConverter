@@ -1,5 +1,5 @@
 
-from tkinter import filedialog, Label
+from tkinter import filedialog
 from Settings.Settings import filepath
 
 

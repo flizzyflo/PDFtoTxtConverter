@@ -8,6 +8,8 @@ def start_application():
     root.title(TITLE)
     root.geometry(GEOMETRY)
     root.config(bg= BACKGROUNDCOLOR)
+    root.iconbitmap("pdf_bitmap.ico")
+
 
     root.mainloop()
 

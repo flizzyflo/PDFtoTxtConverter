@@ -3,7 +3,7 @@
 
 TITLE = "PDF FILE CONVERTER"
 GEOMETRY = "400x100"
-BACKGROUNDCOLOR = "white"
+BACKGROUNDCOLOR = "beige"
 BUTTONCOLOR = "lightgrey"
 
 global filepath 

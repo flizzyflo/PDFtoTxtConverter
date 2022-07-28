@@ -21,7 +21,7 @@ class PDF_UserIterface(Tk):
         self.quitButton.place(x= 315, y= 15)
 
         self.label = Label(master= self, text= "", font=("calibri", 14, "bold"), bg= BACKGROUNDCOLOR)
-        self.label.place(x= 50, y= 55)
+        self.label.place(x= 125, y= 55)
 
         self.filepath = None
 

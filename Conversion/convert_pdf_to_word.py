@@ -27,8 +27,8 @@ def convert_pdf_to_txt(pdf_filepath: str) -> None:
             current_page = reader.getPage(page_number)
             page_content = current_page.extractText()
 
-            # write the information into the newly created txt file
-            with open(file= os.path.join(os.curdir, "transformed.txt"), mode= "ab") as text_file:
+            # write the information into the newly created txt file or append to existing file.
+            with open(file= os.path.join(os.curdir, "transformed_file.txt"), mode= "ab") as text_file:
                 text_file.write(bytes(page_content, "utf-8"))
                 text_file.write(bytes("\n\n", "utf-8"))
               

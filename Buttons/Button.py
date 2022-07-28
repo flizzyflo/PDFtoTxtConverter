@@ -1,7 +1,6 @@
 
 from tkinter import Button
 
-
 class OwnButton(Button):
     """OwnButton Class inheriting from tkinter button class"""
 
